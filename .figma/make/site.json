@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your professional journey with an interactive portfolio designed for students, highlighting achievements, skills, and contact information.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

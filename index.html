@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="FZLVIAN — Informatics Engineering student at ITS, exploring technology, leadership, public speaking, and event management." />
+  <meta name="theme-color" content="#0055a4" />
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <title>FZLVIAN</title>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+
+  <header class="site-header" data-header>
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="wordmark" href="#home" aria-label="FZLVIAN, kembali ke beranda">FZLVIAN</a>
+      <div class="nav-panel" id="nav-panel">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#leadership">Leadership</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="button button-small cv-link" href="/assets/files/cv.pdf" download aria-disabled="true">
+          Download CV <span aria-hidden="true">↘</span>
+        </a>
+      </div>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">
+        <span class="sr-only">Buka menu</span>
+        <span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-track" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Informatics Engineering Student</p>
+          <h1 id="hero-title">
+            Building Ideas.<br />
+            Leading <span>People.</span><br />
+            Making Things <em>Happen.</em>
+          </h1>
+          <p class="hero-intro">
+            Saya adalah mahasiswa S1 Teknik Informatika ITS yang memiliki ketertarikan pada kepemimpinan,
+            manajemen acara, organisasi, dan pengembangan diri. Saya senang mengubah ide menjadi kegiatan
+            yang terstruktur melalui kolaborasi, komunikasi, dan eksekusi menggunakan cara berpikir dan algoritma yang
+            baik.
+          </p>
+          <p class="location"><span></span> Based in Surabaya, Indonesia</p>
+        </div>
+
+        <div class="portrait-stage reveal reveal-delay" aria-label="Area foto profil">
+          <div class="portrait-frame">
+            <img src="assets/images/profile.jpeg" alt="Profile Photo" class="portrait-image" />
+          </div>
+          <span class="shape shape-circle"></span>
+          <span class="shape shape-line"></span>
+          <span class="portrait-note">01 — PROFILE</span>
+        </div>
+
+        <div class="focus-strip" aria-label="Area fokus profesional">
+          <div class="container">
+            <span>Informatics</span><i></i><span>Leadership</span><i></i><span>Public Speaking</span><i></i><span>Event
+              Management</span>
+          </div>
+        </div>
+    </section>
+
+    <section class="section section-track" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <p class="section-label">01 / About Me</p>
+          <h2 id="about-title">My Life, My Way, My Principle.</h2>
+        </header>
+        <div class="about-layout">
+          <p class="about-statement reveal">I bring clarity to ideas, structure to teams, and energy to every path.</p>
+          <div class="about-detail reveal">
+            <p>
+              Mahasiswa Informatika Institut Teknologi Sepuluh Nopember yang memiliki ketertarikan pada bidang
+              organisasi, kepanitiaan, dan pengembangan diri, khususnya dalam aspek manajerial, komunikasi, dan
+              leadership. Memiliki pengalaman dalam perencanaan dan pelaksanaan acara serta pengalaman memimpin
+              organisasi sebagai koordinator tim dan pengelolaan program kerja. Memiliki kemampuan public speaking
+              sebagai Master of Ceremony serta kemampuan komunikasi yang baik dalam membangun relasi dengan berbagai
+              pihak.
+            </p>
+            <div class="focus-list">
+              <div><span>01</span><strong>Leadership &amp; Team Coordination</strong></div>
+              <div><span>02</span><strong>Public Speaking &amp; Communication</strong></div>
+              <div><span>03</span><strong>Event Planning &amp; Execution</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted section-track" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-heading experience-heading reveal">
+          <div>
+            <p class="section-label">02 / Experience</p>
+            <h2 id="experience-title">Experience Built<br />Through <span>Action.</span></h2>
+          </div>
+          <p>From rebuilding a student organization to shaping major event flows, each role strengthened how I lead,
+            communicate, and execute.</p>
+        </header>
+
+        <div class="filter-bar reveal" role="group" aria-label="Filter pengalaman">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">
+            All Experiences
+          </button>
+          <button class="filter-button" type="button" data-filter="leadership" aria-pressed="false">Leadership</button>
+          <button class="filter-button" type="button" data-filter="event" aria-pressed="false">Event Management</button>
+          <button class="filter-button" type="button" data-filter="speaking" aria-pressed="false">Public
+            Speaking</button>
+          <button class="filter-button" type="button" data-filter="volunteer" aria-pressed="false">Volunteer</button>
+          <span class="result-count" aria-live="polite"><strong>11</strong> entries</span>
+        </div>
+
+        <div class="experience-list">
+
+          <!-- ==================== LEADERSHIP ==================== -->
+
+          <article class="experience-item reveal" data-categories="leadership">
+            <div class="experience-meta"><span class="index">01</span><time>Aug 2023 — Aug 2024</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Bridge Extracurricular</h3><strong>President</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Bridge Extracurricular"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Menghidupkan kembali ekstrakurikuler Bridge SMA yang sempat vakum selama 2 tahun melalui
+                    koordinasi dengan kepala sekolah dan rekrutmen anggota.</li>
+                  <li>Menyusun kegiatan latihan rutin anggota serta menjalin komunikasi dengan pelatih tingkat Kota
+                    Blitar untuk pembinaan lanjutan dan persiapan anggota yang ingin mengikuti perlombaan.</li>
+                  <li>Mengurus perizinan kegiatan bersama pihak sekolah serta mengoordinasikan pengiriman atlet pada 3
+                    perlombaan tingkat nasional selama masa kepengurusan.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="leadership">
+            <div class="experience-meta"><span class="index">02</span><time>Aug 2025 — Feb 2026</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Smaga Supporter</h3><strong>Treasurer</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Smaga Supporter"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Menghimpun, mengelola, dan menyimpan dana kegiatan supporter yang berasal dari donasi wali murid
+                    tim basket dan dance serta sumbangan siswa.</li>
+                  <li>Menyusun perencanaan dan laporan penggunaan dana untuk kebutuhan kegiatan supporter, seperti
+                    perlengkapan bass, snare, flag, koreografi, konsumsi, dan lain-lain.</li>
+                  <li>Berkoordinasi dengan pihak sekolah terkait penyampaian jadwal perlombaan serta pengurusan
+                    transportasi dan kebutuhan keberangkatan, termasuk pemesanan bus dan tiket masuk pertandingan.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="leadership">
+            <div class="experience-meta"><span class="index">03</span><time>May 2026</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Prom Night</h3><strong>Vice Project Officer</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Prom Night"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Berperan dalam pengambilan keputusan penting terkait pelaksanaan acara, seperti pemilihan venue,
+                    penentuan tanggal, waktu kegiatan, serta berbagai kebutuhan utama untuk menunjang kelancaran acara.
+                  </li>
+                  <li>Menyusun dan mengembangkan konsep acara bersama divisi acara, mengoordinasikan proses evaluasi dan
+                    approval rundown agar pelaksanaan kegiatan berjalan terstruktur dan sesuai rencana.</li>
+                  <li>Menyampaikan informasi dan pendekatan kepada seluruh siswa terkait pelaksanaan Prom Night untuk
+                    meningkatkan antusiasme, partisipasi, dan keterlibatan peserta dalam acara.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="leadership">
+            <div class="experience-meta"><span class="index">04</span><time>Jan 2026</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Campus Expo</h3><strong>Vice Project Officer</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Campus Expo"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Melaksanakan rapat evaluasi besar dan rapat koordinasi bersama divisi event untuk memonitor
+                    pembagian jobdesk dan perkembangan perencanaan acara Campus Expo.</li>
+                  <li>Berperan dalam pengambilan keputusan penting terkait pelaksanaan acara, seperti penentuan tamu
+                    undangan, pemilihan sponsor utama, serta proses evaluasi dan approval rundown bersama divisi acara.
+                  </li>
+                  <li>Menjadi pihak yang berkoordinasi secara langsung dengan pihak sekolah mulai dari tahap perencanaan
+                    hingga pelaksanaan hari-H, termasuk pengawasan jalannya acara serta koordinasi kedatangan tamu
+                    undangan dan peserta.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="leadership">
+            <div class="experience-meta"><span class="index">05</span><time>Sep 2026 — Aug 2028</time><span>Surabaya,
+                Jawa Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Pemandu LKMM FTEIC</h3><strong>Technical Commission</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Pemandu LKMM FTEIC"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Coming soon.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="leadership">
+            <div class="experience-meta"><span class="index">06</span><time>Jan 2027</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>INI LHO ITS! 2027 x Formabaya</h3><strong>Vice Project Officer</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail INI LHO ITS! 2027 x Formabaya"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Coming soon.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- ==================== EVENT MANAGEMENT ==================== -->
+
+          <article class="experience-item reveal" data-categories="event">
+            <div class="experience-meta"><span class="index">01</span><time>May 2026</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Prom Night</h3><strong>Vice Project Officer</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Prom Night"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Berperan dalam pengambilan keputusan penting terkait pelaksanaan acara, seperti pemilihan venue,
+                    penentuan tanggal, waktu kegiatan, serta berbagai kebutuhan utama untuk menunjang kelancaran acara.
+                  </li>
+                  <li>Menyusun dan mengembangkan konsep acara bersama divisi acara, mengoordinasikan proses evaluasi dan
+                    approval rundown agar pelaksanaan kegiatan berjalan terstruktur dan sesuai rencana.</li>
+                  <li>Menyampaikan informasi dan pendekatan kepada seluruh siswa terkait pelaksanaan Prom Night untuk
+                    meningkatkan antusiasme, partisipasi, dan keterlibatan peserta dalam acara.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="event">
+            <div class="experience-meta"><span class="index">02</span><time>Jan 2026</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Campus Expo</h3><strong>Vice Project Officer</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Campus Expo"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Melaksanakan rapat evaluasi besar dan rapat koordinasi bersama divisi event untuk memonitor
+                    pembagian jobdesk dan perkembangan perencanaan acara Campus Expo.</li>
+                  <li>Berperan dalam pengambilan keputusan penting terkait pelaksanaan acara, seperti penentuan tamu
+                    undangan, pemilihan sponsor utama, serta proses evaluasi dan approval rundown bersama divisi acara.
+                  </li>
+                  <li>Menjadi pihak yang berkoordinasi secara langsung dengan pihak sekolah mulai dari tahap perencanaan
+                    hingga pelaksanaan hari-H, termasuk pengawasan jalannya acara serta koordinasi kedatangan tamu
+                    undangan dan peserta.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="event">
+            <div class="experience-meta"><span class="index">03</span><time>Jan 2026</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>INI LHO ITS! 2026 x Formabaya</h3><strong>Staff Ahli Divisi Event</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail INI LHO ITS! 2026"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Menghadiri koordinasi rapat bersama BPH dan Divisi Event sebagai bagian dari tim perencana utama
+                    dalam pelaksanaan acara INI LHO ITS! 2026 x Formabaya, termasuk melakukan pembagian dan monitoring
+                    jobdesk staff agar seluruh persiapan berjalan terstruktur dan sesuai target pelaksanaan.</li>
+                  <li>Menjadi pihak penghubung antar divisi dalam pelaksanaan acara, termasuk melakukan koordinasi dan
+                    penyampaian kebutuhan kepada divisi lain untuk menunjang kelancaran event.</li>
+                  <li>Bertugas sebagai Master of Ceremony pada hari pelaksanaan acara untuk memandu jalannya kegiatan,
+                    menyampaikan susunan acara, serta membangun interaksi dengan tamu undangan, pemateri talkshow, dan
+                    peserta.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="event">
+            <div class="experience-meta"><span class="index">04</span><time>Aug 2026</time><span>Surabaya, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>OKKBK Teknik Informatika</h3><strong>Staff Divisi Event</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail OKKBK Teknik Informatika"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Mengonsep dan menyusun keseluruhan alur, teknis, serta ide pelaksanaan sesi Opening dan Closing
+                    OKKBK secara menyeluruh dan menarik, meliputi seluruh rangkaian kegiatan mulai dari seremonial
+                    pembukaan hingga penyambutan mahasiswa baru agar kegiatan berlangsung sistematis dan sesuai konsep
+                    yang telah ditentukan.</li>
+                  <li>Berkoordinasi dengan Badan Pengurus Harian dalam melakukan komunikasi dengan tenaga pendidik
+                    terkait kebutuhan fasilitas yang digunakan selama kegiatan serta koordinasi teknis untuk memastikan
+                    seluruh kebutuhan dan pelaksanaan kegiatan dapat berjalan sesuai rencana.</li>
+                  <li>Menjadi Master of Ceremony pada pelaksanaan OKKBK hari pertama, hari kedua, dan Closing OKKBK
+                    untuk memandu seluruh rangkaian acara serta mengarahkan jalannya kegiatan bagi seluruh mahasiswa
+                    baru Teknik Informatika.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="event">
+            <div class="experience-meta"><span class="index">05</span><time>Sep 2026</time><span>Surabaya, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>TCharity Run</h3><strong>Staff Divisi Event</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail TCharity Run"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Mengonsep dan menyusun keseluruhan alur pelaksanaan acara, mulai dari penentuan tema, penyusunan
+                    teknis, penentuan rute, hingga penyusunan rundown untuk rangkaian fun run 5K dan pemberian donasi
+                    kepada yayasan agar seluruh kegiatan dapat berlangsung secara terstruktur.</li>
+                  <li>Melakukan pencerdasan dan monitoring kepada divisi lain, khususnya dalam hal perizinan, serta
+                    berkoordinasi untuk memastikan seluruh kebutuhan terkait penggunaan venue di lingkungan Institut
+                    Teknologi Sepuluh Nopember, termasuk rute dan fasilitas yang digunakan selama acara, telah siap dan
+                    dapat digunakan dengan aman.</li>
+                  <li>Menjadi Master of Ceremony pada hari pelaksanaan yang memandu keseluruhan rangkaian acara fun run,
+                    mulai dari persiapan flag off, hingga pemberian donasi kepada yayasan, sekaligus memastikan setiap
+                    rangkaian berjalan tepat waktu dan berlangsung secara menarik, meriah, dan menyenangkan bagi
+                    peserta.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="event">
+            <div class="experience-meta"><span class="index">08</span><time>Sep 2026 — Aug 2028</time><span>Surabaya,
+                Jawa Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>Pemandu LKMM FTEIC</h3><strong>Technical Commission</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Pemandu LKMM FTEIC"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Coming soon.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="event">
+            <div class="experience-meta"><span class="index">09</span><time>Jan 2027</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Organizational Experience</p>
+                  <h3>INI LHO ITS! 2027 x Formabaya</h3><strong>Vice Project Officer</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail INI LHO ITS! 2027 x Formabaya"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Coming soon.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- ==================== PUBLIC SPEAKING ==================== -->
+
+          <article class="experience-item reveal" data-categories="speaking">
+            <div class="experience-meta"><span class="index">01</span><time>Nov 2026</time><span>Surabaya, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Committee Experience</p>
+                  <h3>Seminar BST Shematics</h3><strong>Master of Ceremony</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Seminar BST Shematics"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Coming soon.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="speaking">
+            <div class="experience-meta"><span class="index">02</span><time>Sep 2026</time><span>Surabaya, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Committee Experience</p>
+                  <h3>TCharity Run</h3><strong>Master of Ceremony</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail TCharity Run"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Menjadi Master of Ceremony pada hari pelaksanaan yang memandu keseluruhan rangkaian acara fun run,
+                    mulai dari persiapan flag off hingga pemberian donasi kepada yayasan.</li>
+                  <li>Memandu jalannya kegiatan sekaligus memastikan setiap rangkaian berjalan tepat waktu dan
+                    berlangsung secara menarik, meriah, dan menyenangkan bagi peserta.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="speaking">
+            <div class="experience-meta"><span class="index">03</span><time>Aug 2026</time><span>Surabaya, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Committee Experience</p>
+                  <h3>OKKBK Teknik Informatika</h3><strong>Master of Ceremony</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail OKKBK Teknik Informatika"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Menjadi Master of Ceremony pada pelaksanaan OKKBK hari pertama, hari kedua, dan Closing OKKBK
+                    untuk memandu seluruh rangkaian acara.</li>
+                  <li>Mengarahkan jalannya kegiatan bagi seluruh mahasiswa baru Teknik Informatika sesuai susunan acara
+                    yang telah ditentukan.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="speaking">
+            <div class="experience-meta"><span class="index">04</span><time>Jan 2026</time><span>Blitar, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Committee Experience</p>
+                  <h3>INI LHO ITS! 2026 x Formabaya</h3><strong>Master of Ceremony</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail INI LHO ITS! 2026"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Bertugas sebagai Master of Ceremony pada hari pelaksanaan acara untuk memandu jalannya kegiatan
+                    dan menyampaikan susunan acara.</li>
+                  <li>Membangun interaksi dengan tamu undangan, pemateri talkshow, dan peserta untuk mendukung
+                    kelancaran pelaksanaan acara.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+
+          <!-- ==================== VOLUNTEER ==================== -->
+
+          <article class="experience-item reveal" data-categories="volunteer">
+            <div class="experience-meta"><span class="index">01</span><time>Nov 2023</time><span>Batu, Jawa Timur</span>
+            </div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Volunteer Experience</p>
+                  <h3>Bridge Walikota Cup 2023</h3><strong>Divisi Event</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Bridge Walikota Cup"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Mendapatkan undangan sebagai volunteer divisi event untuk mengawasi jalannya acara agar tetap
+                    sesuai dengan rundown, serta membantu pengambilan keputusan terkait penyesuaian rundown pada hari
+                    pelaksanaan apabila diperlukan.</li>
+                  <li>Berperan sebagai koordinator lapangan saat hari pelaksanaan dengan tugas melakukan monitoring
+                    kondisi acara, melaporkan kendala di lapangan, dan membantu penanganan masalah agar kegiatan tetap
+                    berjalan lancar.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-item reveal" data-categories="volunteer">
+            <div class="experience-meta"><span class="index">02</span><time>Dec 2026</time><span>Surabaya, Jawa
+                Timur</span></div>
+            <div class="experience-main">
+              <div class="experience-top">
+                <div>
+                  <p>Volunteer Experience</p>
+                  <h3>Sahabat Tangguh Bencana 2026</h3><strong>Divisi Event</strong>
+                </div>
+                <button class="expand-button" type="button" aria-expanded="false"
+                  aria-label="Lihat detail Sahabat Tangguh Bencana 2026"><span></span><span></span></button>
+              </div>
+              <div class="experience-details">
+                <ul>
+                  <li>Coming soon.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="section education section-track" id="leadership" aria-labelledby="education-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <p class="section-label">03 / Education</p>
+          <h2 id="education-title">Learning Today.<br />Building Tomorrow.</h2>
+        </header>
+        <div class="education-list">
+          <article class="education-item reveal">
+            <div class="education-year">2025 <span>Present</span></div>
+            <div>
+              <p>Institut Teknologi Sepuluh Nopember</p>
+              <h3>Teknik Informatika</h3><span>Departemen Teknik Informatika · Surabaya, Indonesia</span>
+            </div>
+            <span class="education-mark" aria-hidden="true">ITS</span>
+          </article>
+          <article class="education-item reveal">
+            <div class="education-year">2023 <span>2025</span></div>
+            <div>
+              <p>SMA Negeri 3 Blitar</p>
+              <h3>Senior High School</h3><span>Blitar, Jawa Timur</span>
+            </div>
+            <span class="education-mark" aria-hidden="true">SMAGA</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="achievement section-track" id="achievements" aria-labelledby="achievement-title">
+      <div class="container reveal">
+        <p class="section-label light">04 / Achievements</p>
+        <div class="achievement-grid">
+          <div class="achievement-number">03<span>RD</span></div>
+          <div>
+            <p class="achievement-kicker">Featured Achievement · November 2023</p>
+            <h2 id="achievement-title">Juara 3 Beregu<br />Kejuaraan Provinsi<br /><span>Bridge 2023</span></h2>
+            <p class="achievement-organizer">Pemerintah Kota Batu dan GABSI</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-track" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <p class="section-label">05 / Skills</p>
+          <h2 id="skills-title">Tools &amp; Languages.</h2>
+        </header>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <p class="group-label">Technical Skills</p>
+            <div class="skill-row"><span>01</span><strong>Microsoft Office</strong><small>Word, Excel,
+                PowerPoint, Power BI</small></div>
+            <div class="skill-row"><span>02</span><strong>Database Management</strong><small>MySQL, SQL Queries,
+                Database Design</small></div>
+            <div class="skill-row"><span>03</span><strong>Web Development</strong><small>HTML, CSS, JS, Hosting,
+                Deployment</small>
+            </div>
+            <div class="skill-row"><span>04</span><strong>AI Tools</strong><small>Prompt Design, Generative AI,
+                Optimization </small></div>
+          </div>
+          <div class="skill-group reveal">
+            <p class="group-label">Languages</p>
+            <div class="skill-row"><span>ID</span><strong>Bahasa Indonesia</strong><small>Aktif, Proficient</small>
+            </div>
+            <div class="skill-row"><span>EN</span><strong>English Language</strong><small>Active, Upper
+                Intermediate</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section growth section-track" id="growth" aria-labelledby="growth-title">
+      <div class="container">
+        <header class="section-heading compact reveal">
+          <p class="section-label">Self Awareness</p>
+          <h2 id="growth-title">Strengths &amp;<br />Areas of Growth</h2>
+        </header>
+        <div class="growth-grid">
+          <div class="strengths reveal">
+            <p class="group-label">What I Bring</p>
+            <ol>
+              <li><span>01</span>Mampu bertanggung jawab dan berkomitmen tinggi terhadap pilihan, tugas, dan target
+                yang
+                diberikan.</li>
+              <li><span>02</span>Mampu bekerja di bawah tekanan dengan tenang dan adaptif.</li>
+              <li><span>03</span>Mampu memimpin serta bekerja sama dengan baik dalam sebuah tim.</li>
+              <li><span>04</span>Mampu mengerjakan sesuatu secara terstruktur dengan time dan
+                jobdesk management yang baik.</li>
+              <li><span>05</span>Mampu melakukan public speaking, presentasi, dan komunikasi dengan baik.</li>
+            </ol>
+          </div>
+          <div class="development reveal">
+            <p class="group-label">Still Developing</p>
+            <ul>
+              <li>Terkadang terlalu fokus pada detail agar hasil dapat maksimal.</li>
+              <li>Terkadang membutuhkan waktu untuk beradaptasi di lingkungan baru.</li>
+              <li>Masih perlu meningkatkan kemampuan delegasi pekerjaan kepada anggota tim.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section training section-track" id="training" aria-labelledby="training-title">
+      <div class="container">
+        <header class="section-heading reveal">
+          <p class="section-label">Development</p>
+          <h2 id="training-title">Training Timeline.</h2>
+        </header>
+        <div class="training-list reveal">
+          <div><time>Nov 2025</time><span></span>
+            <h3>PKTI TD</h3>
+            <p>BEM FTEIC Institut Teknologi Sepuluh Nopember</p>
+          </div>
+          <div><time>Nov 2025</time><span></span>
+            <h3>LKMM Pra TD</h3>
+            <p>BEM FTEIC Institut Teknologi Sepuluh Nopember</p>
+          </div>
+          <div><time>Nov 2025</time><span></span>
+            <h3>LKMW</h3>
+            <p>Ditmawa Institut Teknologi Sepuluh Nopember</p>
+          </div>
+          <div><time>May 2026</time><span></span>
+            <h3>LKMM TD</h3>
+            <p>HMTC Institut Teknologi Sepuluh Nopember</p>
+          </div>
+          <div><time>Sep 2026</time><span></span>
+            <h3>PP LKMM</h3>
+            <p>BEM FTEIC Institut Teknologi Sepuluh Nopember</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-track" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div class="reveal">
+          <p class="section-label light">06 / Let's Connect</p>
+          <h2 id="contact-title">Have an Idea?<br />Let's Make It <span>Happen.</span></h2>
+        </div>
+        <div class="contact-content reveal">
+          <p>Terbuka untuk membangun relasi, berkolaborasi, dan mengambil kesempatan baru untuk terus belajar dan
+            berkembang.</p>
+          <div class="contact-actions">
+            <a class="button button-cyan" href="mailto:mviann02@gmail.com">Send an Email <span
+                aria-hidden="true">↗</span></a>
+            <a class="button button-outline-light" href="https://wa.me/628113509955" target="_blank"
+              rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+            <!-- TODO: Replace the LinkedIn homepage URL with your personal profile URL. -->
+            <a class="button button-outline-light" href="https://www.linkedin.com/in/muhammad-afzal-fulvian-540141372"
+              target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+          <dl class="contact-details">
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:mviann02@gmail.com">mviann02@gmail.com</a></dd>
+            </div>
+            <div>
+              <dt>Phone / WhatsApp</dt>
+              <dd><a href="tel:+628113509955">+62 811 3509 955</a></dd>
+            </div>
+            <div>
+              <dt>LinkedIn</dt>
+              <dd><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Muhammad Afzal Fulvian
+                </a>
+              </dd>
+            </div>
+            <div>
+              <dt>Location</dt>
+              <dd>Surabaya, Indonesia</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="informatics-mindset">
+    <section class="informatics-mindset container" aria-labelledby="mindset-title">
+      <div class="mindset-copy reveal">
+        <p class="section-label">07 / The Informatics</p>
+        <h2 id="mindset-title">Learning to Build.<br />Building to <span>Learn.</span></h2>
+        <p class="mindset-intro">Exploring code in efficient and optimal way with AI Tools & Prompt - Always make it
+          simple.</p>
+        <a class="button button-primary" href="https://github.com/fckviann" target="_blank" rel="noreferrer">
+          Explore My GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div class="mindset-panels reveal reveal-delay">
+        <article class="mindset-panel">
+          <!-- Icon Code/Tag SVG -->
+          <svg class="mindset-icon" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+            <line x1="14" y1="4" x2="10" y2="20"></line>
+          </svg>
+          <div>
+            <p class="group-label">Currently Learning</p>
+            <h3>Optimalization & Efficiency.</h3>
+            <p>Prompt engineering, Reverse engineering.</p>
+          </div>
+        </article>
+
+        <article class="mindset-panel">
+          <!-- Icon Braces SVG -->
+          <svg class="mindset-icon" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5a2 2 0 0 0 2 2h1"></path>
+            <path d="M16 3h1a2 2 0 0 1 2 2v5a2 2 0 0 0 2 2 2 2 0 0 0-2 2v5a2 2 0 0 1-2 2h-1"></path>
+          </svg>
+          <div>
+            <p class="group-label">Building &amp; Experimenting</p>
+            <h3>Maximize AI Tools Use</h3>
+            <p>Practising through projects, problem solving, and algorithms.</p>
+          </div>
+        </article>
+        <a class="mindset-github" href="https://github.com/" target="_blank" rel="noreferrer">
+          <svg class="github-mark" aria-hidden="true" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path
+              d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+          </svg>
+          <span><strong>My code, My Representation</strong><small>Explore my repositories on GitHub.</small></span>
+          <span class="mindset-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+    <div class="container footer-bottom"><span>© <span id="year"></span> FZLVIAN · Informatics Engineering Student at
+        ITS</span><a href="#home">Back to top ↑</a></div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Kembali ke atas">↑</button>
+  <div class="cv-notice" role="status" aria-live="polite">CV PDF akan tersedia setelah file ditambahkan.</div>
+  <script type="module" src="/assets/js/script.js"></script>
+</body>
+
+</html>
