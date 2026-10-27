@@ -441,4 +441,73 @@ document.addEventListener("DOMContentLoaded", () => {
   if (yearElement) {
     yearElement.textContent = String(new Date().getFullYear());
   }
+
+  // ==========================================
+  // 10. RESPONSIVE INTERACTION LAYER
+  // ==========================================
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+  const finePointer = window.matchMedia("(hover: hover) and (pointer: fine)");
+  const portraitStage = document.querySelector(".portrait-stage");
+
+  if (!reduceMotion.matches && finePointer.matches) {
+    let pointerFrame;
+
+    window.addEventListener("pointermove", (event) => {
+      if (pointerFrame) return;
+
+      pointerFrame = requestAnimationFrame(() => {
+        document.body.style.setProperty("--pointer-x", `${event.clientX}px`);
+        document.body.style.setProperty("--pointer-y", `${event.clientY}px`);
+        pointerFrame = null;
+      });
+    }, { passive: true });
+
+    portraitStage?.addEventListener("pointermove", (event) => {
+      const bounds = portraitStage.getBoundingClientRect();
+      const x = (event.clientX - bounds.left) / bounds.width - 0.5;
+      const y = (event.clientY - bounds.top) / bounds.height - 0.5;
+
+      portraitStage.style.setProperty("--tilt-x", `${x * 7}deg`);
+      portraitStage.style.setProperty("--tilt-y", `${y * -7}deg`);
+    });
+
+    portraitStage?.addEventListener("pointerleave", () => {
+      portraitStage.style.removeProperty("--tilt-x");
+      portraitStage.style.removeProperty("--tilt-y");
+    });
+  }
+
+  if (!finePointer.matches) {
+    document.querySelectorAll(".skill-row, .mindset-panel").forEach((item) => {
+      item.addEventListener("click", () => {
+        item.classList.toggle("is-active");
+      });
+    });
+  }
+
+  // Keep the visual section rail synchronized with the page position.
+  const railLinks = Array.from(document.querySelectorAll(".tech-rail a"));
+  const railSections = railLinks
+    .map((link) => document.querySelector(link.getAttribute("href")))
+    .filter(Boolean);
+
+  if ("IntersectionObserver" in window && railSections.length) {
+    const railObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+
+        railLinks.forEach((link) => {
+          link.classList.toggle(
+            "active",
+            link.getAttribute("href") === `#${entry.target.id}`
+          );
+        });
+      });
+    }, {
+      rootMargin: "-35% 0px -55% 0px",
+      threshold: 0
+    });
+
+    railSections.forEach((section) => railObserver.observe(section));
+  }
 });
